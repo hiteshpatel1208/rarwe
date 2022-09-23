@@ -1,4 +1,5 @@
 {{page-title 'Rock & Roll with Ember Octane'}}
+
 <div class='bg-blue-900 text-gray-100 p-8 h-screen'>
   <div class='mx-auto mb-4'>
     <div class='h-12 flex items-center mb-4 border-b-2'>
@@ -11,10 +12,8 @@
         </h1>
       </a>
     </div>
-    <nav class="h-8 flex item-center mb-8">
-        <LinkTo class="hover:text-grey-500" @route="bands">Bands</LinkTo>
-        <LinkTo class="hover:text-grey-500 ml-4" @route="songs">Songs</LinkTo>
-    </nav>
-    {{outlet}}
+    <div class='flex flex-wrap -mx-2'>
+      {{outlet}}
+    </div>
   </div>
 </div>
