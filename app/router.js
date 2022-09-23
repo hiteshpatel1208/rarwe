@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'rarwes/config/environment';
+import config from 'rarwe/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
